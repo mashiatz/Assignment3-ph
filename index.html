@@ -24,7 +24,11 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                // 'bike-primary': '#E76F51',
+                
+              },
+              backgroundImage: {
+                bg: "url('./assets/bg.jpg')",
+
               }
             }
           }
@@ -52,7 +56,7 @@
             <h1 class="inline font-extrabold text-4xl ">Rinterio</h1>
         </div>
         <div class="hidden lg:block pt-4">
-            <ul class="flex justify-between gap-9">
+            <ul class="flex justify-between gap-10">
                 <li class="font-extrabold">Home</li>
                 <li class="text-[#737373]">Services</li>
                 <li class="text-[#737373]">Portfolio</li>
@@ -167,19 +171,19 @@
           </div>
 
 <!-- work process section -->
-<!-- button -->
+<!-- how we work -->
  
-<button class=" flex  gap-2 rounded-[24px] pt-4 bg-white py-1.5 px-2.5 mx-auto my-7">
+<div class=" flex justify-center items-center gap-2 rounded-[24px] pt-1   bg-white mx-auto  w-36 h-8">
     
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-3 text-black rotate-45 ">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg>
-    </div>
-    <h2 class="text-sm font-bold bg-book-primary">How we work</h2>
     
-</button>
+    <p class="text-sm font-black">How we work</p>
+    
+</div>
 
 <!-- process texts -->
 <div>
@@ -241,10 +245,57 @@
 
 </div>
 
+<!-- form section -->
+<div class="bg-bg  bg-cover py-12">
+<!-- lets connect -->
+<div class=" flex justify-center items-center gap-2 rounded-[24px] pt-1  bg-[#cfe9b1de] mx-auto  w-36 h-8">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-3 text-black rotate-45 ">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+
+<p class="text-sm font-black text-[#494949]">Let's Connect</p>
+</div>
+<h1 class="font-black text-4xl text-center my-5">Let’s Discuss Next Project</h1>
+<p class="text-[#494949] text-sm text-center"> The barn house captivates with its blend of rustic charm and modern sophistication,<br/> featuring weathered wood, sleek metal accents.</p>
 <!-- form -->
- 
+ <form  class=" py-4 lg:pl-36">
+    <input type="text" placeholder="First Name" class="input input-bordered w-full lg:w-5/12 text-sm text-[#A0A0A0] rounded-[64px] my-6" />
+
+    <input type="text" placeholder="Last Name" class="input input-bordered w-full lg:w-5/12 text-sm text-[#A0A0A0] rounded-[64px]" />
+    <br/>
+    
+    
+    <input type="text" placeholder="Phone Number" class="input input-bordered w-full lg:w-5/12  text-sm text-[#A0A0A0] rounded-[64px] my-6" />
+
+    <input type="text" placeholder="Email Number" class="input input-bordered w-full lg:w-5/12 text-sm text-[#A0A0A0] rounded-[64px]" />
+    
+
+    <textarea class="textarea textarea-bordered w-full lg:w-10/12 h-60 rounded-[32px] mt-6 " placeholder="Write your message here"></textarea>
+    <button class=" flex bg-[#ABEF5F] rounded-3xl pt-4 px-3 gap-2 w-full lg:w-10/12 justify-center items-center my-7">
+        <h2 class="text-xl font-extrabold bg-book-primary">Send Mail</h2>
+        <div class=" bg-black rounded-full p-2   mb-4 ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-4 text-white  ">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+        </div>
+    </button>
 
 
+ </form>
+
+
+
+
+
+
+
+
+</div>
 
 
 
